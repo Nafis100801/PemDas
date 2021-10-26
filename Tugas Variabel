@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+    int main ()
+      {
+        int angka1,angka2,hasil;
+        
+       cout << "=========== Variabel ===========" << endl;
+  cout << "Progarm ini adalah Tugas mata kuliah Pemrograman Dasar \n";
+  cout << "Nama : Mohamad Nafis\n";
+  cout << "NIM  : 21104410067\n";
+  cout << "Prodi: Teknik Informatika\n";
+  cout << "======================================" << endl;
+        
+    printf("penjumlahan\n");
+            
+        cout<<"masukan angka = "; cin >> angka1;
+        cout<<"masukan angka kedua = "; cin >> angka2;
+        hasil=angka1+angka2;
+       cout<< "hasilnya adalah" << endl; 
+       cout<< hasil;
+       
+        
+        return 0;
+        
+     }
