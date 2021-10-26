@@ -1,0 +1,36 @@
+#include <iostream>
+#include <conio>
+using namespace std;
+
+void main()
+   int main() {
+   
+      string nama;
+      string alamat;
+      int stambuk;
+      string nomor_hp;
+   
+      cout << "Input Nama : ";
+      cin >> nama;
+      
+      cout << "Input Alamat : ";
+      cin >> alamat;
+      
+   
+      cout << "Input Stambuk : ";
+      cin >> stambuk;
+      
+      cout << "Input Nomor HP : ";
+      cin >> nomor_hp;
+   
+      cout << endl;
+   
+      cout << "Nama : " << nama << endl;
+      cout << "Alamat : " << alamat << endl;
+      cout << "Stambuk : " << stambuk << endl;
+      cout << "Nomor HP : " << nomor_hp << endl;
+   
+      return 0;
+  }
+
+  
