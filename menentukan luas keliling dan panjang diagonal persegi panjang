@@ -1,0 +1,51 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+int main()
+{
+	int nilai, panjang, lebar;
+	long int luas, keliling, diagonal;
+	cout << "===================== Pemilihan Menggunakan Case ===========================\n\n";
+	cout << "Nama : Mohamad Nafis \n";
+	cout << "Menu persegi panjang"<<endl;
+	cout << "1. Luas\n";
+	cout << "2. keliling\n";
+	cout << "3. Panjang Diagonal\n" <<endl;
+    cout << "Masukan Nilai : ";
+    cin >> nilai;
+    cout << "\n";
+    switch(nilai){
+        case 1:
+            cout << "Luas" << endl;
+            cout << "Panjang:  ";
+            cin >> panjang;
+            cout << "Lebar: ";
+            cin >> lebar;
+            luas=panjang*lebar;
+            cout << luas;
+            break;
+        case 2:
+            cout << "Keliling" << endl;
+            cout << "Panjang:  ";
+            cin >> panjang;
+            cout << "Lebar: ";
+            cin >> lebar;
+            keliling=2*panjang+lebar;
+            cout << keliling;
+            break;
+        case 3:
+            cout << "panjang Diagonal" << endl;
+            cout << "Panjang:  ";
+            cin >> panjang;
+            cout << "Lebar: ";
+            cin >> lebar;
+            diagonal=sqrt((double)panjang*panjang+(double)panjang*lebar);
+            cout << diagonal;
+            break;		 
+        default:
+            cout << "Angka yang kamu masukkan salah beb" << endl;
+            break;
+    }
+    return 0;
+}
